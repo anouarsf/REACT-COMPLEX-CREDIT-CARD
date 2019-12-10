@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
+ color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.container-card{
+  background-color: #020e25;
+  width: 520px;
+  height: 350px;
+ color: white;
+ border-radius: 15px;
+ margin: 30px 620px;
+ padding: 20px;
+}
+.title{
+margin-left:300px;
+  font-size :  25px ;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.visa{
+  width: 130px;
+  height: 90px;
+  margin: 90px 10px 0px 0px;
   }
+
+.number-card{
+  color: rgb(218,165,32) ;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ownername{
+  margin: 90px 20px 0px 0px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 14px;
+}
+
+.footer-g{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between ;
 }
 
-.App-link {
-  color: #61dafb;
+.date{
+margin: 0px 60px;
+font-family: 'Nanum Gothic Coding', monospace;
+font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-input-card{
+  padding: 20px;
+  margin: 50px  620px;
+  background-color: #020e25;
+  width: 520px;
+  height: 310px;
+  border-radius: 15px;
+}
+.owner{
+  width: 300px;
+  height: 20px;
+}
+.text-title{
+  font-size: 24x;
+  font-weight: bold;
+  color: rgb(173, 7, 7);
+}
+.cardnumber{
+  width: 400px;
+  height: 20px;
+}
+
+.title-purchase{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0px;
 }
